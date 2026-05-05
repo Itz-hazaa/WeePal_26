@@ -17,9 +17,12 @@ export const Navbar = () => {
     <>
       <nav className="sticky top-[42px] z-30 border-b border-border bg-background/95 backdrop-blur-md">
         <div className="container flex h-[62px] items-center justify-between gap-5">
-          <a href="#" className="font-display text-2xl font-bold text-primary">
+          {/* <a href="#" className="font-display text-2xl font-bold text-primary">
             Wee<span className="text-accent">Pal</span>
-          </a>
+          </a> */}
+          <a href="#" className="font-display text-2xl font-bold" style={{ color: '#F7941D' }}>
+  Wee<span style={{ color: '#1A7A99' }}>Pal</span>
+</a>
           <ul className="hidden gap-6 md:flex">
             {links.map((l) => (
               <li key={l.href}>

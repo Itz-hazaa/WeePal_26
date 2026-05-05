@@ -6,7 +6,7 @@ import { BoardsStrip } from "@/components/sections/BoardsStrip";
 import { HowItWorks } from "@/components/sections/HowItWorks";
 import { WhyWeePal } from "@/components/sections/WhyWeePal";
 import { Curriculum } from "@/components/sections/Curriculum";
-import { Program } from "@/components/sections/Program";
+// import { Program } from "@/components/sections/Program";
 import { Pricing } from "@/components/sections/Pricing";
 import { WhatsAppSection } from "@/components/sections/WhatsAppSection";
 import { Stats } from "@/components/sections/Stats";
@@ -29,7 +29,7 @@ const Index = () => {
           <HowItWorks />
           <WhyWeePal />
           <Curriculum />
-          <Program />
+          {/* <Program /> */}
           <Pricing />
           <WhatsAppSection />
           <Stats />

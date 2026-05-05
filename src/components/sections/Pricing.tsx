@@ -3,18 +3,76 @@ import { SectionHeader } from "@/components/SectionHeader";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { useMode, waLink } from "@/contexts/ModeContext";
 
+// const indianTiers = [
+//   { cls: "Classes 4 – 6", price: "2,499", currency: "₹", desc: "Foundation years — building the concepts everything else depends on", featured: false, msg: "Hi! I want to join WeePal for Classes 4-6." },
+//   { cls: "Classes 7 – 9", price: "2,999", currency: "₹", desc: "The critical years — where most students start falling behind if concepts aren't clear", featured: true, msg: "Hi! I want to join WeePal for Classes 7-9." },
+//   { cls: "Class 10 — Board Prep", price: "3,499", currency: "₹", desc: "Board exam year — focused on high-scoring strategies and past papers", featured: false, msg: "Hi! I want to join WeePal for Class 10." },
+// ];
+
+// const intlTiers = [
+//   { cls: "Classes 4 – 6 · International", price: "49", currency: "$", desc: "Foundation years — Maths, Science, and English for international boards", featured: false, msg: "Hi! I am an international student and want to join WeePal for Classes 4-6." },
+//   { cls: "Classes 7 – 9 · International", price: "69", currency: "$", desc: "Critical middle years — aligned to IGCSE, IB MYP, or US Common Core", featured: true, msg: "Hi! I am an international student and want to join WeePal for Classes 7-9." },
+//   { cls: "Class 10 · Intl. Board Prep", price: "89", currency: "$", desc: "IGCSE / IB MYP / US Grade 10 — exam-focused strategy & confidence", featured: false, msg: "Hi! I am an international student and want to join WeePal for Class 10." },
+// ];
 const indianTiers = [
-  { cls: "Classes 4 – 6", price: "1,499", currency: "₹", desc: "Foundation years — building the concepts everything else depends on", featured: false, msg: "Hi! I want to join WeePal for Classes 4-6." },
-  { cls: "Classes 7 – 9", price: "1,999", currency: "₹", desc: "The critical years — where most students start falling behind if concepts aren't clear", featured: true, msg: "Hi! I want to join WeePal for Classes 7-9." },
-  { cls: "Class 10 — Board Prep", price: "2,499", currency: "₹", desc: "Board exam year — focused on high-scoring strategies and past papers", featured: false, msg: "Hi! I want to join WeePal for Class 10." },
+  {
+    cls: "Classes 4 – 6",
+    price: "2,499",
+    annualPrice: "24,990",
+    currency: "₹",
+    desc: "Foundation years — building the concepts everything else depends on",
+    featured: false,
+    msg: "Hi! I want to join WeePal for Classes 4-6.",
+  },
+  {
+    cls: "Classes 7 – 9",
+    price: "2,999",
+    annualPrice: "29,990",
+    currency: "₹",
+    desc: "The critical years — where most students start falling behind if concepts aren't clear",
+    featured: true,
+    msg: "Hi! I want to join WeePal for Classes 7-9.",
+  },
+  {
+    cls: "Class 10 — Board Prep",
+    price: "3,499",
+    annualPrice: "34,990",
+    currency: "₹",
+    desc: "Board exam year — focused on high-scoring strategies and past papers",
+    featured: false,
+    msg: "Hi! I want to join WeePal for Class 10.",
+  },
 ];
 
 const intlTiers = [
-  { cls: "Classes 4 – 6 · International", price: "49", currency: "$", desc: "Foundation years — Maths, Science, and English for international boards", featured: false, msg: "Hi! I am an international student and want to join WeePal for Classes 4-6." },
-  { cls: "Classes 7 – 9 · International", price: "69", currency: "$", desc: "Critical middle years — aligned to IGCSE, IB MYP, or US Common Core", featured: true, msg: "Hi! I am an international student and want to join WeePal for Classes 7-9." },
-  { cls: "Class 10 · Intl. Board Prep", price: "89", currency: "$", desc: "IGCSE / IB MYP / US Grade 10 — exam-focused strategy & confidence", featured: false, msg: "Hi! I am an international student and want to join WeePal for Class 10." },
+  {
+    cls: "Classes 4 – 6 · International",
+    price: "49",
+    annualPrice: "490",
+    currency: "$",
+    desc: "Foundation years — Maths, Science, and English for international boards",
+    featured: false,
+    msg: "Hi! I am an international student and want to join WeePal for Classes 4-6.",
+  },
+  {
+    cls: "Classes 7 – 9 · International",
+    price: "69",
+    annualPrice: "690",
+    currency: "$",
+    desc: "Critical middle years — aligned to IGCSE, IB MYP, or US Common Core",
+    featured: true,
+    msg: "Hi! I am an international student and want to join WeePal for Classes 7-9.",
+  },
+  {
+    cls: "Class 10 · Intl. Board Prep",
+    price: "89",
+    annualPrice: "890",
+    currency: "$",
+    desc: "IGCSE / IB MYP / US Grade 10 — exam-focused strategy & confidence",
+    featured: false,
+    msg: "Hi! I am an international student and want to join WeePal for Class 10.",
+  },
 ];
-
 const sharedFeats = [
   "5 live classes per week",
   "All class recordings",

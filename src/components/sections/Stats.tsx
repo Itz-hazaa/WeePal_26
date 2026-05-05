@@ -5,8 +5,8 @@ const stats = [
   { num: "5+", label: "Schools Using Our Curriculum", desc: "Hyderabad schools that adopted our robotics curriculum in-house" },
   { num: "10+", label: "Expert Teachers", desc: "IIT and NIT graduates, screened, trained, and background-checked" },
   { num: "20+", label: "Workshops Delivered", desc: "Hands-on sessions at schools, orphanages, and community centres" },
-  { num: "2", label: "Countries", desc: "Serving students in India and UAE — live online, no commute" },
-  { num: "1", label: "NDTV Feature", desc: "Our founder was featured on NDTV for teaching engineers at age 11" },
+  { num: "10+", label: "Countries", desc: "Serving students in Indian and Foreign students— live online, no commute" },
+  { num: "100+", label: "News Feature", desc: "Our founder was featured on NDTV for teaching engineers at age 11" },
 ];
 
 export const Stats = () => (

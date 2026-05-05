@@ -2,7 +2,7 @@ import { Target, MessageSquare, Video, BookOpen, Cpu, ShieldCheck } from "lucide
 import { SectionHeader } from "@/components/SectionHeader";
 
 const feats = [
-  { icon: Target, tone: "primary", title: "Small Batches — Max 25 Students", desc: "Your child is never just a face in a crowd. Every student gets personal attention, and no one gets left behind." },
+  { icon: Target, tone: "primary", title: "Small Batches", desc: "Your child is never just a face in a crowd. Every student gets personal attention, and no one gets left behind." },
   { icon: MessageSquare, tone: "accent", title: "Weekly Reports on WhatsApp", desc: "Every Friday you get a clear update on what was covered, how your child performed, and what to focus on next." },
   { icon: Video, tone: "primary", title: "Every Class is Recorded", desc: "If your child misses a class or wants to revise before an exam — every session is available to watch anytime." },
   { icon: BookOpen, tone: "accent", title: "Follows Your Child's Exact Syllabus", desc: "We teach your child's specific board and textbooks — so what they learn directly helps in school exams." },

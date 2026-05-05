@@ -32,7 +32,7 @@ export const Footer = () => (
       </div>
       <div className="mt-9 flex flex-wrap items-center justify-between gap-2 border-t border-white/10 pt-5">
         <p className="text-xs text-white/30">WeePal Education · Empowering Tomorrow's Thinkers · © 2026</p>
-        <p className="text-xs text-white/30">Made with ❤️ in Hyderabad</p>
+        <p className="text-xs text-white/30">Weepalindia@gmail.com</p>
       </div>
     </div>
   </footer>

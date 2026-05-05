@@ -3,8 +3,8 @@ export const Footer = () => (
     <div className="container">
       <div className="grid gap-9 md:grid-cols-3">
         <div>
-          <div className="mb-2 font-display text-xl font-bold text-white" style={{ color: '#F7941D' }}>
-            Wee<span className="text-accent" style={{ color: '#1A7A99' }}>Pal</span>
+          <div className="mb-2 font-display text-xl font-bold text-white" style={{ color: '#D4760A' }}>
+            Wee<span className="text-accent" style={{ color: '#145F78' }}>Pal</span>
           </div>
           <p className="max-w-[230px] text-sm leading-relaxed text-white/55">
             Live online tuition for Classes 4–10. Small batches, expert teachers, and weekly WhatsApp progress reports for parents.

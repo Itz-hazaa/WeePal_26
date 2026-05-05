@@ -20,8 +20,8 @@ export const Navbar = () => {
           {/* <a href="#" className="font-display text-2xl font-bold text-primary">
             Wee<span className="text-accent">Pal</span>
           </a> */}
-          <a href="#" className="font-display text-2xl font-bold" style={{ color: '#F7941D' }}>
-  Wee<span style={{ color: '#1A7A99' }}>Pal</span>
+          <a href="#" className="font-display text-2xl font-bold" style={{ color: '#D4760A' }}>
+  Wee<span style={{ color: '#145F78' }}>Pal</span>
 </a>
           <ul className="hidden gap-6 md:flex">
             {links.map((l) => (

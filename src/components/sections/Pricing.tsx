@@ -223,7 +223,7 @@ export const Pricing = () => {
         <SectionHeader center label="Pricing" title="Simple, Honest Fees" subtitle="No hidden charges, no registration fees. First trial class is always free." />
 
         {/* Toggle */}
-        <div className="mb-8 flex items-center justify-center gap-3">
+        {/* <div className="mb-8 flex items-center justify-center gap-3">
           <span className={`text-sm font-semibold ${!annual ? "text-primary-dark" : "text-muted-foreground"}`}>Monthly</span>
           <button
             onClick={() => setAnnual(!annual)}
@@ -239,7 +239,7 @@ export const Pricing = () => {
           <span className="rounded-full bg-accent-light px-2.5 py-0.5 text-[11px] font-extrabold text-accent">
             2 MONTHS FREE
           </span>
-        </div>
+        </div> */}
 
         <div className="grid gap-5 md:grid-cols-3">
           {tiers.map((t) => (
@@ -275,7 +275,7 @@ export const Pricing = () => {
                     <sub className="font-sans text-[13px] font-semibold text-muted-foreground">/month</sub>
                   </div>
                   <div className="mt-1 text-[12px] text-muted-foreground">
-                    or {t.currency}{t.annualPrice}/yr — save 2 months
+                    * {t.currency}{t.annualPrice}/yr — save 2 months
                   </div>
                 </div>
               )}

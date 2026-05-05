@@ -81,7 +81,7 @@ export const Founder = () => (
         </div>
         <div>
           <div className="text-2xl font-bold text-primary-dark font-display">Mohammed Hassaan Ali</div>
-          <div className="mb-5 text-sm font-bold text-accent">Founder — WeePal & TechShala · Age 19</div>
+          <div className="mb-5 text-sm font-bold text-accent">Founder — TechShala | Age 19</div>
           <ul className="mb-6">
             {items.map((it, i) => (
               <li key={it.href} className="flex items-start gap-2.5 border-b border-muted py-2.5 last:border-0">
@@ -99,7 +99,7 @@ export const Founder = () => (
             <div className="font-display text-base italic text-primary-dark">
               "Let your child be the next Hassaan."
             </div>
-            <div className="mt-1 text-xs font-bold text-muted-foreground">— Arsheena Rahman, Co-founder, WeePal</div>
+            <div className="mt-1 text-xs font-bold text-muted-foreground">— Arsheena Rahman, Co-founder</div>
           </div>
         </div>
       </div>

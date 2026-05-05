@@ -209,7 +209,7 @@ const sharedFeats = [
   "All class recordings",
   "Weekly WhatsApp report to parents",
   "All core subjects + Coding",
-  "Max 25 students per batch",
+  "Small Batches",
 ];
 
 export const Pricing = () => {

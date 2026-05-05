@@ -9,7 +9,7 @@ const baseFaqs = [
   { q: "What if my child doesn't like it after joining?", a: "If your child isn't happy after the first week of paid classes, we refund every rupee (or dollar) — no questions, no forms, no hassle. We stand behind our teaching quality completely." },
   { q: "What if my child misses a class?", a: "Every single class is recorded and sent to you. Your child can watch it anytime — before exams, on weekends, as many times as they need." },
   { q: "What device does my child need?", a: "Any laptop, tablet, or desktop with a stable internet connection works well. A phone works for watching recordings, but for live classes a larger screen is better." },
-  { q: "How many students are in each batch?", a: "For Classes 4–9, we keep batches to a maximum of 25 students. For Class 10 board prep, batches are capped at 15 for extra attention." },
+  { q: "How many students are in each batch?", a: "For Classes 4–9, we keep batches to a maximum of 21 students. For Class 10 board prep, batches are capped at 18 for extra attention." },
 ];
 
 export const FAQ = () => {

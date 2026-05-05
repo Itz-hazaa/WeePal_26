@@ -108,7 +108,7 @@ const BrandSelector = ({ onSelect }: { onSelect: (b: Brand) => void }) => {
 
         <div style={S.content}>
           <span style={{ ...S.badge, color: "#d4760a", border: "1.5px solid #d4760a55", background: "#d4760a11" }}>
-            Ages 3 – 12
+            Ages 9 – 16
           </span>
 
           <div style={S.logo}>
@@ -165,7 +165,7 @@ const BrandSelector = ({ onSelect }: { onSelect: (b: Brand) => void }) => {
 
         <div style={S.content}>
           <span style={{ ...S.badge, color: "#ff7070", border: "1.5px solid #8b000066", background: "#8b000022" }}>
-            Ages 8 – 16
+            All Ages
           </span>
 
           <div style={{ ...S.logo, fontFamily: "'Courier New',monospace", letterSpacing: "-2px" }}>

@@ -117,7 +117,7 @@ const BrandSelector = ({ onSelect }: { onSelect: (b: Brand) => void }) => {
           </div>
 
           <p style={{ ...S.tagline, color: "#7a4a1e" }}>
-            Fun English learning<br />for little ones
+            Online tuitions <br />for future-ready students.
           </p>
 
           <div style={{

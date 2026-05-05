@@ -16,10 +16,11 @@ export const Founder = () => (
         <SectionHeader center label="About the Founder" title="The Person Building WeePal" />
       </div>
       <div className="mx-auto grid max-w-[920px] items-center gap-10 md:grid-cols-[1fr_1.6fr]">
-        <div className="relative mx-auto w-full max-w-[260px]">
-          <div className="grid aspect-square place-items-center rounded-2xl bg-gradient-to-br from-primary-light to-primary-pale text-7xl shadow-soft">
-            👨‍💻
-          </div>
+        <img
+  src="founder-hassaan.png"
+  alt="Mohammed Hassaan Ali — Founder of WeePal & TechShala"
+  className="aspect-square w-full rounded-2xl object-cover shadow-soft"
+/>
           <div className="absolute -bottom-2 -right-2 -z-10 h-3/4 w-3/4 rounded-2xl border-2 border-accent-light" />
         </div>
         <div>

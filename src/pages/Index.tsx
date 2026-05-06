@@ -506,7 +506,7 @@ const BrandSelector = ({ onSelect }: { onSelect: (b: Brand) => void }) => {
     ...S.side,
     [sizeKey]:  chosen ? (chosen === "weepal" ? "100%" : "0%") : weepalSize,
     [crossKey]: "100%",
-    background: "linear-gradient(145deg,#fff9f2 0%,#ffecd9 60%,#ffddb5 100%)",
+    // background: "linear-gradient(145deg,#fff9f2 0%,#ffecd9 60%,#ffddb5 100%)",
     transform:  chosen === "techshala" ? exitWeepal : "none",
     opacity:    chosen === "techshala" ? 0 : 1,
   };
@@ -515,7 +515,7 @@ const BrandSelector = ({ onSelect }: { onSelect: (b: Brand) => void }) => {
     ...S.side,
     [sizeKey]:  chosen ? (chosen === "techshala" ? "100%" : "0%") : techSize,
     [crossKey]: "100%",
-    background: "linear-gradient(145deg,#0a0a0a 0%,#141414 55%,#1c0404 100%)",
+    // background: "linear-gradient(145deg,#0a0a0a 0%,#141414 55%,#1c0404 100%)",
     transform:  chosen === "weepal" ? exitTech : "none",
     opacity:    chosen === "weepal" ? 0 : 1,
   };
@@ -649,7 +649,7 @@ const BrandSelector = ({ onSelect }: { onSelect: (b: Brand) => void }) => {
               onClick={(e) => { e.stopPropagation(); navigate("techshala"); }}
               aria-label="Enter TechShala"
             >
-              {isMobile && tapped === "techshala" ? "Tap again to enter →" : "Enter TechShala →"}
+              {isMobile && tapped === "techshala" ? "Tap again to enter →" : "Enter Wee Pal →"}
             </button>
           </div>
         </div>

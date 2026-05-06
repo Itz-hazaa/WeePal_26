@@ -626,7 +626,7 @@ const BrandSelector = ({ onSelect }: { onSelect: (b: Brand) => void }) => {
 
         <div style={S.content}>
           <span style={{ ...S.badge, color: "#ff8080", border: "1.5px solid #8b000055", background: "#8b000020" }}>
-            Tech for All
+            Making tech human.
           </span>
 
           <div  style={{ ...S.logo, fontFamily: "'Courier New',monospace", letterSpacing: "-2px", fontSize: logoSize }}>

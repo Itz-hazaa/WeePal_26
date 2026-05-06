@@ -649,7 +649,7 @@ const BrandSelector = ({ onSelect }: { onSelect: (b: Brand) => void }) => {
               onClick={(e) => { e.stopPropagation(); navigate("techshala"); }}
               aria-label="Enter TechShala"
             >
-              {isMobile && tapped === "techshala" ? "Tap again to enter →" : "Enter Wee Pal →"}
+              {isMobile && tapped === "techshala" ? "Tap again to enter →" : "Enter WeePal →"}
             </button>
           </div>
         </div>

@@ -428,7 +428,7 @@ import { Footer } from "@/components/sections/Footer";
 import { StickyWhatsApp } from "@/components/sections/StickyWhatsApp";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
-type Brand = "weepal" | "techshala";
+type Brand = "WeePal" | "Wee Pal";
 
 // ─── Responsive hook ──────────────────────────────────────────────────────────
 const useBreakpoint = () => {
@@ -472,7 +472,7 @@ const BrandSelector = ({ onSelect }: { onSelect: (b: Brand) => void }) => {
 
   const navigate = useCallback((brand: Brand) => {
     if (brand === "techshala") {
-      window.open("https://techshala-murex.vercel.app/", "_blank");
+      window.open("https://project-bloom.itzhazaa.workers.dev/", "_blank");
       return;
     }
     setChosen(brand);
@@ -577,7 +577,7 @@ const BrandSelector = ({ onSelect }: { onSelect: (b: Brand) => void }) => {
             opacity:   showWeepalCTA ? 1 : 0,
             transform: showWeepalCTA ? "translateY(0)" : "translateY(12px)",
           }}>
-            <div style={S.iconRow}>📚&nbsp;&nbsp;🎨&nbsp;&nbsp;🌟</div>
+            {/* <div style={S.iconRow}>📚&nbsp;&nbsp;🎨&nbsp;&nbsp;🌟</div> */}
             <button
               style={{ ...S.cta, ...S.weepalCta }}
               onClick={(e) => { e.stopPropagation(); navigate("weepal"); }}
@@ -630,8 +630,8 @@ const BrandSelector = ({ onSelect }: { onSelect: (b: Brand) => void }) => {
           </span>
 
           <div style={{ ...S.logo, fontFamily: "'Courier New',monospace", letterSpacing: "-2px", fontSize: logoSize }}>
-            <span style={{ color: "#ffffff" }}>Tech</span>
-            <span style={{ color: "#cc2020" }}>Shala</span>
+            <span style={{ color: "#ffffff" }}>WEE </span>
+            <span style={{ color: "#263dcc" }}>PAL</span>
           </div>
 
           <p style={{ ...S.tagline, color: "#aaaaaa", fontSize: taglineSize }}>
@@ -643,7 +643,7 @@ const BrandSelector = ({ onSelect }: { onSelect: (b: Brand) => void }) => {
             opacity:   showTechCTA ? 1 : 0,
             transform: showTechCTA ? "translateY(0)" : "translateY(12px)",
           }}>
-            <div style={{ ...S.iconRow, color: "#fff" }}>🤖&nbsp;&nbsp;⚙️&nbsp;&nbsp;💡</div>
+            {/* <div style={{ ...S.iconRow, color: "#fff" }}>🤖&nbsp;&nbsp;⚙️&nbsp;&nbsp;💡</div> */}
             <button
               style={{ ...S.cta, ...S.techCta }}
               onClick={(e) => { e.stopPropagation(); navigate("techshala"); }}

@@ -623,9 +623,9 @@ const BrandSelector = ({ onSelect }: { onSelect: (b: Brand) => void }) => {
         <div style={S.gridLines} />
         <div style={{ ...S.blob, width: 260, height: 260, background: "#8b000016", bottom: -50, right: -50 }} />
         <div style={{ ...S.blob, width: 140, height: 140, background: "#ff000008", top: 40, left: 30 }} />
-
+{/* #ff8080 */}
         <div style={S.content}>
-          <span style={{ ...S.badge, color: "#ff8080", border: "1.5px solid #8b000055", background: "#8b000020" }}>
+          <span style={{ ...S.badge, color: "#000000", border: "1.5px solid #8b000055", background: "#8b000020" }}>
             Making tech human.
           </span>
 

@@ -629,7 +629,7 @@ const BrandSelector = ({ onSelect }: { onSelect: (b: Brand) => void }) => {
             Tech for All
           </span>
 
-          <div  style={{ ...S.logo, fontFamily: "'Courier New',monospace", letterSpacing: "-2px", fontSize: logoSize }>
+          <div  style={{ ...S.logo, fontFamily: "'Courier New',monospace", letterSpacing: "-2px", fontSize: logoSize }}>
             <span style={{ color: "#000000" }}>WEE</span>
             <span style={{ color: "#263dcc" }}>PAL</span>
           </div>

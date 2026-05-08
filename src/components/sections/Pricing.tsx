@@ -147,8 +147,8 @@ import { useMode, waLink } from "@/contexts/ModeContext";
 const indianTiers = [
   {
     cls: "Classes 4 – 6",
-    price: "2,499",
-    annualPrice: "24,990",
+    price: "3,499",
+    annualPrice: "34,990",
     currency: "₹",
     desc: "Foundation years — building the concepts everything else depends on",
     featured: false,
@@ -156,8 +156,8 @@ const indianTiers = [
   },
   {
     cls: "Classes 7 – 9",
-    price: "2,999",
-    annualPrice: "29,990",
+    price: "3,999",
+    annualPrice: "39,990",
     currency: "₹",
     desc: "The critical years — where most students start falling behind if concepts aren't clear",
     featured: true,
@@ -165,8 +165,8 @@ const indianTiers = [
   },
   {
     cls: "Class 10 — Board Prep",
-    price: "3,499",
-    annualPrice: "34,990",
+    price: "4,499",
+    annualPrice: "44,990",
     currency: "₹",
     desc: "Board exam year — focused on high-scoring strategies and past papers",
     featured: false,
